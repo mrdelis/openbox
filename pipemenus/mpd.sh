@@ -9,8 +9,8 @@ echo "<openbox_pipe_menu>"
 
 
 
-# 		<menu icon="/home/derek/.config/openbox/circle-filled.png" id="root-menu-151830" label="Places">
-# 			<item icon="/home/derek/.config/openbox/square-open.png" label="Home">
+# 		<menu icon="/home/john/.config/openbox/circle-filled.png" id="root-menu-151830" label="Places">
+# 			<item icon="/home/john/.config/openbox/square-open.png" label="Home">
 # 				<action name="Execute">
 # 					<execute>pcmanfm -n ~/</execute>
 #				</action>
@@ -26,7 +26,7 @@ echo "<item label=\"Not Playing\"><action name=\"Execute\"><execute>mpc</execute
  
 else
  
-echo "<menu icon=\"/home/derek/.config/openbox/circle-filled.png\" id=\"root-menu-325671\" label=\""$nowstatus"\">"
+echo "<menu icon=\"/home/john/.config/openbox/circle-filled.png\" id=\"root-menu-325671\" label=\""$nowstatus"\">"
 echo "<item label=\""$nowplaying"\"><action name=\"Execute\"><execute>mpc</execute></action></item>"
 echo "<item label=\""$playing"\"><action name=\"Execute\"><execute>mpc</execute></action></item>"
 echo "<separator/>"
